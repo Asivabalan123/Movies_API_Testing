@@ -57,6 +57,40 @@ describe Movies do
      expect(@movies_data.get_origin_country).to be_kind_of(String)
    end
 
-   it 'should return production countries iso_3166_1 as string'
+   it 'should return production countries iso_3166_1 as string' do
+     expect(@movies_data.get_iso_3166_1).to be_kind_of(String)
+   end
+
+   it 'should return production countries name as string' do
+     expect(@movies_data.get_production_country_name).to be_kind_of(String)
+   end
+
+   it 'should return original language as a string' do
+     expect(@movies_data.get_original_language).to be_kind_of(String)
+   end
+
+   it 'should return poster_path as a string' do
+     expect(@movies_data.get_poster_path).to be_kind_of(String)
+   end
+
+   it 'should return logo_path as a string' do
+     expect(@movies_data.get_logo_path).to be_kind_of(String)
+   end
+
+   it 'should return release_date'do
+    expect(@movies_data.get_release_date).to be_kind_of(String)
+  end
+
+   it 'should return string for homepage link' do
+     expect(@movies_data.get_home_page_link).to be_kind_of(String)
+   end
+
+   it 'should return a link for homepage link' do
+    expect(@movies_data.get_home_page_link).to be true
+   end
+
+
+
+
 
 end
