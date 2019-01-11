@@ -86,6 +86,6 @@ describe Movies do
    end
 
    it 'should return a link for homepage link' do
-    expect(@movies_data.get_home_page_link).to be true
-   end
+    expect(@movies_data.get_home_page_link).to eq "http://www.foxmovies.com/movies/fight-club"
+  end
 end
