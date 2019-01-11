@@ -88,9 +88,4 @@ describe Movies do
    it 'should return a link for homepage link' do
     expect(@movies_data.get_home_page_link).to be true
    end
-
-
-
-
-
 end

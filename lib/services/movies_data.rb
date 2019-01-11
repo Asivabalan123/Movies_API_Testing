@@ -92,11 +92,3 @@ class MovieService
     get_home_page_link.include?('https://')|('http://')
   end
 end
-
-
-
-
-
-
-# test = MovieService.new
-# puts test.movies_data
