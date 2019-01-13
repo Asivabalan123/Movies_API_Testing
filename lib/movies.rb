@@ -6,5 +6,4 @@ class Movies
     MovieService.new
   end
 
-
 end
