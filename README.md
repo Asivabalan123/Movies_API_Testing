@@ -24,4 +24,4 @@ You will also need an API key, which should not be shared online, and has theref
 
 Following this, please create a file named '.env' in the main project directory. This file should include your api key, in the format "OPENWEATHER_API_KEY=000000000", where 000000000 is replaced with your API key.
 
-Then simply run 'rspec' to run the test
+To run the tests: Clone the repository, go into your Git Bash and into file where it is saved under and run simply run Rspec.
